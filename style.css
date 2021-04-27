@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+svg {
+  background-color: azure;
+  font-family: sans-serif;
+  box-shadow: blue;
+}
+
+#tooltip {
+  padding: 7px;
+  font: 20px sans-serif;
+  border: 0px;
+  border-radius: 8px;
+  background: rgb(232, 203, 245);
+  pointer-events: none;
+}
+
+#legend {
+  font: 12px sans-serif;
+}
+
+#title {
+  font: 20px sans-serif;
+}
